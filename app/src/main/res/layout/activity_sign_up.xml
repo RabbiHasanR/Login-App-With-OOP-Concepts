@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        android:id="@+id/username"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/email"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:id="@+id/phone"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"/>
+    <Spinner
+        android:id="@+id/gender_spinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"/>
+    <Spinner
+        android:id="@+id/userType_spinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:id="@+id/signUp"/>
+
+
+</LinearLayout>

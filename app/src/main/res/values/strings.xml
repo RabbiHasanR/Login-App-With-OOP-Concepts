@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoginAppPractice</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string-array name="gender_array">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="userType_array">
+        <item>User Type</item>
+        <item>Admin</item>
+        <item>Salesmen</item>
+    </string-array>
+</resources>
